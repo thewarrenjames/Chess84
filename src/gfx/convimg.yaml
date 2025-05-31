@@ -1,0 +1,161 @@
+palettes:
+  - name: global_palette
+    fixed-entries:
+      - color: {index:  0,  hex: "#1D1D1D"} # Dark Background Color
+      - color: {index:  1,  hex: "#BDC0C7"} # Light Background Color
+      - color: {index:  2,  hex: "#FFFFFF"} # White Color
+      - color: {index:  3,  hex: "#000000"} # Black Color
+      - color: {index:  4,  hex: "#6FCCDD"} # Transparency Color
+
+      - color: {index:  5,  hex: "#6D7371"} # Gray Color
+      - color: {index:  6,  hex: "#272828"} # Dark Gray Color
+      - color: {index:  7,  hex: "#959A9C"} # Light Gray Color
+
+      - color: {index:  8, hex: "#FAF5F5"} # Lose Color
+      - color: {index:  9, hex: "#EEBA0F"} # Win Color
+
+      - color: {index: 10,  hex: "#901433"} # Dark Important Color #0D2C54
+      - color: {index: 11,  hex: "#A21639"} # Dark Out of Time Color
+      - color: {index: 12,  hex: "#C51B46"} # Dark Low on Time Color
+      - color: {index: 13,  hex: "#E22856"} # Light Important Color
+      - color: {index: 14,  hex: "#E43A64"} # Light Out of Time Color
+      - color: {index: 15,  hex: "#E95D80"} # Light Low on Time Color
+
+      # Coconut
+      - color: {index: 16, hex: "#995A24"} # Dark Square Color
+      - color: {index: 17, hex: "#D7A44C"} # Light Square Color
+      - color: {index: 18, hex: "#804D1E"} # Dark Target Color
+      - color: {index: 19, hex: "#AD8234"} # Light Target Color
+      - color: {index: 20, hex: "#A66F17"} # Dark Last Move Color
+      - color: {index: 21, hex: "#EAB02A"} # Light Last Move Color
+      - color: {index: 22, hex: "#8B5D13"} # Dark Last Move Target Color
+      - color: {index: 23, hex: "#B5871C"} # Light Last Move Target Color
+
+      # Potato
+      - color: {index: 24, hex: "#D18348"} # Dark Square Color
+      - color: {index: 25, hex: "#F3D7AA"} # Light Square Color
+      - color: {index: 26, hex: "#BA6F36"} # Dark Target Color
+      - color: {index: 27, hex: "#DCB87F"} # Light Target Color
+      - color: {index: 28, hex: "#E8CC40"} # Dark Last Move Color
+      - color: {index: 29, hex: "#F9EE71"} # Light Last Move Color
+      - color: {index: 30, hex: "#DEBE21"} # Dark Last Move Target Color
+      - color: {index: 31, hex: "#E3D645"} # Light Last Move Target Color
+
+      # Beetroot
+      - color: {index: 32, hex: "#312121"} # Dark Square Color
+      - color: {index: 33, hex: "#BE2C31"} # Light Square Color
+      - color: {index: 34, hex: "#2A1C1C"} # Dark Target Color
+      - color: {index: 35, hex: "#9C2C31"} # Light Target Color
+      - color: {index: 36, hex: "#8D7C3F"} # Dark Last Move Color
+      - color: {index: 37, hex: "#DF773B"} # Light Last Move Color
+      - color: {index: 38, hex: "#84743B"} # Dark Last Move Target Color
+      - color: {index: 39, hex: "#CD632A"} # Light Last Move Target Color
+
+      # Elderberry
+      - color: {index: 40, hex: "#1E293E"} # Dark Square Color
+      - color: {index: 41, hex: "#4B6088"} # Light Square Color
+      - color: {index: 42, hex: "#192235"} # Dark Target Color
+      - color: {index: 43, hex: "#425476"} # Light Target Color
+      - color: {index: 44, hex: "#305979"} # Dark Last Move Color
+      - color: {index: 45, hex: "#47799E"} # Light Last Move Color
+      - color: {index: 46, hex: "#2D506F"} # Dark Last Move Target Color
+      - color: {index: 47, hex: "#437395"} # Light Last Move Target Color
+
+      # Tomato
+      - color: {index: 48, hex: "#D3482C"} # Dark Square Color
+      - color: {index: 49, hex: "#F8DABE"} # Light Square Color
+      - color: {index: 50, hex: "#B53C26"} # Dark Target Color
+      - color: {index: 51, hex: "#E2BB98"} # Light Target Color
+      - color: {index: 52, hex: "#E7A860"} # Dark Last Move Color
+      - color: {index: 53, hex: "#F9ECA9"} # Light Last Move Color
+      - color: {index: 54, hex: "#E19442"} # Dark Last Move Target Color
+      - color: {index: 55, hex: "#E2D283"} # Light Last Move Target Color
+
+      # Kiwi
+      - color: {index: 56, hex: "#73B135"} # Dark Square Color
+      - color: {index: 57, hex: "#F1F3C9"} # Light Square Color
+      - color: {index: 58, hex: "#63992E"} # Dark Target Color
+      - color: {index: 59, hex: "#DBDDA1"} # Light Target Color
+      - color: {index: 60, hex: "#C6DD32"} # Dark Last Move Color
+      - color: {index: 61, hex: "#F7F980"} # Light Last Move Color
+      - color: {index: 62, hex: "#B7CD22"} # Dark Last Move Target Color
+      - color: {index: 63, hex: "#E5E84F"} # Light Last Move Target Color
+
+      # Kale
+      - color: {index: 64, hex: "#207444"} # Dark Square Color
+      - color: {index: 65, hex: "#EDF4E6"} # Light Square Color
+      - color: {index: 66, hex: "#1C683C"} # Dark Target Color
+      - color: {index: 67, hex: "#DCDCB2"} # Light Target Color
+      - color: {index: 68, hex: "#A5C828"} # Dark Last Move Color
+      - color: {index: 69, hex: "#FAFA8A"} # Light Last Move Color
+      - color: {index: 70, hex: "#9BBB25"} # Dark Last Move Target Color
+      - color: {index: 71, hex: "#F6F641"} # Light Last Move Target Color
+
+      # Blueberry
+      - color: {index: 72, hex: "#3175B4"} # Dark Square Color
+      - color: {index: 73, hex: "#F1F0CA"} # Light Square Color
+      - color: {index: 74, hex: "#2A6398"} # Dark Target Color
+      - color: {index: 75, hex: "#DCD9A2"} # Light Target Color
+      - color: {index: 76, hex: "#1788CE"} # Dark Last Move Color
+      - color: {index: 77, hex: "#6FCAF1"} # Light Last Move Color
+      - color: {index: 78, hex: "#1473AE"} # Dark Last Move Target Color
+      - color: {index: 79, hex: "#47B2DC"} # Light Last Move Target Color
+
+      # Grape
+      - color: {index: 80, hex: "#765FD3"} # Dark Square Color
+      - color: {index: 81, hex: "#EAF5EA"} # Light Square Color
+      - color: {index: 82, hex: "#5C43C1"} # Dark Target Color
+      - color: {index: 83, hex: "#BDE0BD"} # Light Target Color
+      - color: {index: 84, hex: "#6A85D7"} # Dark Last Move Color
+      - color: {index: 85, hex: "#AAD0E9"} # Light Last Move Color
+      - color: {index: 86, hex: "#4D6DC7"} # Dark Last Move Target Color
+      - color: {index: 87, hex: "#77B2DA"} # Light Last Move Target Color
+    images: automatic
+
+converts:
+  - name: sprites
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - Neo_Black_Bishop.png
+      - Neo_Black_King.png
+      - Neo_Black_Knight.png
+      - Neo_Black_Pawn.png
+      - Neo_Black_Queen.png
+      - Neo_Black_Rook.png
+      - Neo_White_Bishop.png
+      - Neo_White_King.png
+      - Neo_White_Knight.png
+      - Neo_White_Pawn.png
+      - Neo_White_Queen.png
+      - Neo_White_Rook.png
+      - Classic_Black_Bishop.png
+      - Classic_Black_King.png
+      - Classic_Black_Knight.png
+      - Classic_Black_Pawn.png
+      - Classic_Black_Queen.png
+      - Classic_Black_Rook.png
+      - Classic_White_Bishop.png
+      - Classic_White_King.png
+      - Classic_White_Knight.png
+      - Classic_White_Pawn.png
+      - Classic_White_Queen.png
+      - Classic_White_Rook.png
+
+converts:
+  - name: background
+    palette: global_palette
+    compress: zx7
+    width-and-height: false
+    images:
+      - Background.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - sprites
+      - background
+

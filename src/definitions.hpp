@@ -1,0 +1,98 @@
+/**
+ * @file definitions.hpp
+ * @author Warren James (thewarrenjames@gmail.com)
+ * @brief Definitions of important constants
+ * @version 1.0.0
+ * @date 2025-06-01
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
+
+#pragma once
+
+#define MAX_MOVE_HISTORY 255
+#define MAX_LEGAL_MOVES 218
+#define MAX_PSEUDO_LEGAL_MOVES 255
+#define MAX_PSEUDO_LEGAL_MOVES_FOR_ONE_SQUARE 27
+#define OFFBOARD 64
+
+#define MAX_ALGEBRAIC_NOTATION_LENGTH 7
+#define MAX_FEN_LENGTH 88
+#define MAX_PGN_LENGTH 2822
+#define MAX_SAVE_NAME 8
+#define MAX_STAT_NAME 6
+#define MAX_ELO_LENGTH 4
+
+#define PIECE_SIZE 25
+#define SQUARE_SIZE 30
+#define CENTER_SIZE 5
+#define CAPTURE_INNER_SIZE 11
+#define CAPTURE_OUTER_SIZE 15
+
+#define DARK_BACKGROUND_COLOR 0
+#define LIGHT_BACKGROUND_COLOR 1
+#define WHITE_COLOR 2
+#define BLACK_COLOR 3
+#define TRANSPARENT_COLOR 4
+
+#define GRAY_COLOR 5
+#define DARK_GRAY_COLOR 6
+#define LIGHT_GRAY_COLOR 7
+
+#define LOSE_COLOR 8
+#define WIN_COLOR 9
+
+#define DARK_IMPORTANT_COLOR 10
+#define DARK_OUT_OF_TIME_COLOR 11
+#define DARK_LOW_ON_TIME_COLOR 12
+#define LIGHT_IMPORTANT_COLOR 13
+#define LIGHT_OUT_OF_TIME_COLOR 14
+#define LIGHT_LOW_ON_TIME_COLOR 15
+
+#define DARK_COLOR 16
+#define LIGHT_COLOR 17
+#define DARK_TARGET_COLOR 18
+#define LIGHT_TARGET_COLOR 19
+#define DARK_LAST_MOVE_COLOR 20
+#define LIGHT_LAST_MOVE_COLOR 21
+#define DARK_LAST_MOVE_TARGET_COLOR 22
+#define LIGHT_LAST_MOVE_TARGET_COLOR 23
+
+#define HUMAN 0
+
+#define FOLLOW_PLAYER 0
+#define DYNAMIC 1
+#define ONLY_WHITE 2
+#define ONLY_BLACK 3
+#define TILE_PALETTE_OFFSET 8
+#define PIECE_STYLE_OFFSET 12
+#define MATCHING 0
+#define LIGHT 1
+#define DARK 2
+
+#define RESET_BOARD_ON_ENTER_WITH_GAME_OVER 0
+#define RESET_BOARD_ON_ENTER 1
+
+#define UP_ARROW_TEXT '\x1E'
+#define DOWN_ARROW_TEXT '\x1F'
+#define LEFT_ARROW_TEXT '\x11'
+#define RIGHT_ARROW_TEXT '\x10'
+
+#define WHITE_ENCODED 0x1742685
+#define BLACK_ENCODED 0x26046B
+
+#define NUMBER_OF_SPRITES 24
+
+#define CLOCKS_PER_HOLD (CLOCKS_PER_SEC / (1000 / 200))
+#define CLOCKS_PER_TEXT (CLOCKS_PER_SEC / (1000 / 500))
+
+#define LOWEST_EVALUATION -9000
+#define HIGHEST_EVALUATION 9000
+#define OPENING_POSITIONS 149
+#define MAX_POSSIBLE_OPENING_MOVES 10
+
+#define IDENTIFIER_SIZE 5
+
+#define FILE_SUCCESS 1
+#define FILE_FAILURE 2
